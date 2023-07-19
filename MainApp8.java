@@ -38,7 +38,9 @@ class MainApp8
 		Product pro = new Product();
 		
 		System.out.println("ENTER ID ");
+
 		pro.pId = sc.nextInt();
+
 		System.out.println("ENTER NAME ");
 		pro.pName = sc.next();	
 		System.out.println("ENTER PRICE ");
