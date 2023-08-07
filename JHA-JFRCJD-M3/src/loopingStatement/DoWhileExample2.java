@@ -10,7 +10,7 @@ public class DoWhileExample2 {
 
         do{
             status = true ;
-            System.err.println("THIS IS DO WHILE !!");
+            System.out.println("THIS IS DO WHILE !!");
             System.out.println("ENTER 'N' TO STOP EXECUTE DO WHILE ");
             char ch = sc.next().charAt(0);
             if (ch == 'N' || ch == 'n')
