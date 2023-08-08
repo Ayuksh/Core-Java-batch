@@ -11,7 +11,7 @@ public class ArrayCreation {
 
         for (int i =0 ; i < n ; i++)
         {
-            System.out.println("ENTER STRING VALUE ");
+            System.out.println("ENTER INT VALUE ");
             int s = sc.nextInt();
                 arr[i] = s ;
         }
