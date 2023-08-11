@@ -11,10 +11,15 @@ public class LaptopShop {
         laptops[3] = new Laptop("Asus" , "1ecd234" , 16 , 80000.75);
         laptops[4] = new Laptop("Apple" , "1234abc" , 8 , 52000.99) ;
 
-        for(int i =0 ; i< laptops.length ; i++) {
-            System.out.println(laptops+"  --->  ");
-            laptops[i].displayDetails();
-            System.out.println("=======================");
+        for (Laptop l : laptops) {
+            l.displayDetails();
+            System.out.println("--------------------");
         }
+
+//        for(int i =0 ; i< laptops.length ; i++) {
+//            System.out.println(laptops+"  --->  ");
+//            laptops[i].displayDetails();
+//            System.out.println("=======================");
+//        }
     }
 }
