@@ -4,7 +4,7 @@ public class StringProgram1 {
     public static void main(String[] args) {
         String s1 = "core java" ; // object creation without using new operator
         String s2 = new String("CORE JAVA"); // boject creation with using new operator
-
+        s1 = "java";
         String s3 = "core java";
         String s4  = new String("core java");
 
