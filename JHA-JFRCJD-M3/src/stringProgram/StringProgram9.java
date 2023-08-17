@@ -4,9 +4,13 @@ public class StringProgram9 {
     public static void main(String[] args) {
         String str = "This is core java Batch";
 
-        String[] arr = str.split(" " );
-        for (int i = arr.length-1; i>=0 ; i--)
-            System.out.print(arr[i]+" ");
-
+        String ans = "";
+       for (String s : str.split(" "))
+       {
+           ans += (s.substring(0 , s.length()-1) + s.toUpperCase().charAt( s.length()-1)+" ");
+       }
+        ans = ans.trim();
+        System.out.println(ans);
+        System.out.println(str.length() == ans.length());
     }
 }
