@@ -6,7 +6,7 @@ public class Engine {
         System.out.println("STARTING ENGINE !!");
     }
 
-    public static void stop()
+    public void stop()
     {
         System.out.println("ENGINE STOP !!");
     }
