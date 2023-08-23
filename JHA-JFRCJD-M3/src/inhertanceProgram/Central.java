@@ -1,7 +1,7 @@
 package inhertanceProgram;
 
 public class Central extends Master{
-    Central()
+    Central(int a)
     {
         super(10 , 20);
         System.out.println("CENTRAL CONSTRUCTOR !!");
