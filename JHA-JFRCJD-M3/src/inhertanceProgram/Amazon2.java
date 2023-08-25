@@ -15,4 +15,9 @@ public class Amazon2 {
     {
         System.out.println("PAYMENT DONE BY card");
     }
+
+    public static void payment( String flatno , String city , String pincode )
+    {
+        System.out.println("PAYMENT WILL BE DONE ON DELIVERY !!");
+    }
 }
