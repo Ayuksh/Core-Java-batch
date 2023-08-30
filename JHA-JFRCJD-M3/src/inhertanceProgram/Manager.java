@@ -8,7 +8,8 @@ public class Manager extends Member{
         this.department = department;
     }
 
-    @Override
+
+        @Override
     public void printSalary() {
         super.printSalary();
         System.out.println("DEPARTMENT : "+ department);
