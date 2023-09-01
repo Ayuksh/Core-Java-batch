@@ -13,7 +13,7 @@ public class MainApp3 {
         int ch = sc.nextInt() ;
         TicketBooking t1 ;
         if(ch == 1)
-            t1 = new BookMyShow();
+            t1 = (TicketBooking) new BookMyShow();
         else
             t1 = new PayTM();
 
