@@ -1,0 +1,10 @@
+package polimorphism;
+
+public class MainApp2 {
+    public static void main(String[] args) {
+        Addition a1 = new Addition();
+        a1.add(10);
+        a1.add(20 , 30);
+        a1.add(10 , 20 , 30 );
+    }
+}
