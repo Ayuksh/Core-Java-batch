@@ -9,7 +9,7 @@ public class MainApp3 {
         System.out.println("1. PUBLIC WHATSAPP");
         System.out.println("2. PRIVATE WHATSAPP");
         int ch = sc.nextInt() ;
-        WhatsApp wh = null ;
+        WhatsApp wh ;
         if (ch == 1)
             wh = new PublicWhatsApp();
         else
