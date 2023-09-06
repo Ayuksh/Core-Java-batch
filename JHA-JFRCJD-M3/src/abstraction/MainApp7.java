@@ -11,8 +11,7 @@ public class MainApp7 {
         System.out.println("2. DEVELOPER ");
         int ch = sc.nextInt();
 
-        Employee e1 = new Developer() ;
-        Employee e2 = new Manager() ;
+        Employee e1 ;
 
         if (ch == 1)
             e1 = new Manager() ;
