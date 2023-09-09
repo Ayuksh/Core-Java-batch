@@ -1,6 +1,6 @@
 package abstraction;
 
-public class AmazonApp implements MiniTV , AmazonFresh{
+public class AmazonApp implements MiniTV , AmazonFresh {
     @Override
     public void watchTVShows() {
         System.out.println("WATCHING TV SHOWS !!");
