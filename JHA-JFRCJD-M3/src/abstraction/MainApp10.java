@@ -12,6 +12,8 @@ public class MainApp10 {
 
         BankAccount acc = FactoryClass.createAccount(ch) ;
 
+        LoanAccount l1 = new LoanAccount() ;
+
         for( int i =0 ;; i++) {
             System.out.println("SELECT THE OPERATION ");
             System.out.println("1. DEPOSIT ");
