@@ -1,6 +1,6 @@
 package encapsulation;
 
-public class Bike {
+ class Bike {
     public void start(){
         System.out.println("BIKE STARTED !!");
     }
