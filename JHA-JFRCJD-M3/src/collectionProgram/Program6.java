@@ -11,7 +11,8 @@ public class Program6 {
         for (int i =0 ; i<5 ; i++) {
             System.out.println("ENTER A NUMBER ");
             int a = sc.nextInt();
-            list1.add(a);
+            if (!list1.contains(a))
+                list1.add(a);
         }
 
         System.out.println( list1 );
