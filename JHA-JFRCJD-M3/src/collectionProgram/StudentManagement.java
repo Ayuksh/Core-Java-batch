@@ -34,4 +34,11 @@ public class StudentManagement {
                 System.out.println(s);
     }
 
+    public void findFailStudent()
+    {
+        for (Student s : studentList)
+            if (s.getStudentMarks()<35)
+                System.out.println(s);
+    }
+
 }

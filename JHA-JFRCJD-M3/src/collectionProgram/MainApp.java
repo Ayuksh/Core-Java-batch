@@ -12,6 +12,7 @@ public class MainApp {
         System.out.println("2. REMOVE STUDENT ");
         System.out.println("3. DISPLAY STUDENT ");
         System.out.println("4. SEARCH STUDENT ");
+        System.out.println("5. FAIL STUDENT");
         int ch = sc.nextInt();
 
 
@@ -29,6 +30,8 @@ public class MainApp {
             case 4:
                 searchStudent();
                 break;
+            case 5 :
+                studentManagement.findFailStudent();
         }
 
         main(args);
@@ -59,4 +62,6 @@ public class MainApp {
         String name = sc.next() ;
         studentManagement.searchStudent(name);
     }
+
+
 }
